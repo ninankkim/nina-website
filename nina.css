@@ -1,0 +1,97 @@
+body {
+    background-color: #4C4C56;
+}
+.display-4{
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+.text {
+    color:white;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2D3356;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.front-image {
+    width: 200px;
+    height: 270px;
+    margin: 40px 40px 40px 40px;
+    border: solid;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#image-container {
+    text-align: center;
+}
+
+.side-image {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 20px 20px 20px 20px;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-github {
+    background: black;
+    color: white;
+}
+.fa-codepen {
+    background: purple;
+    color: white;
+}
+
+.front-end {
+    padding: 20px 20px 20px 20px;
+    width: 500px;
+    height: 200px;
+}
+
+.node {
+    width: 100px;
+    height: 300px;
+}
